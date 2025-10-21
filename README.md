@@ -73,24 +73,24 @@ API ini memiliki 5 endpoint utama yang di-prefix dengan `/api/games`:
 ## Hasil Pengujian Postman
 
 Sesuai ketentuan tugas, bukti pengujian untuk semua 5 endpoint CRUD dan pengujian *error handling* telah didokumentasikan.
-Semua screenshot dapat dilihat di dalam folder: **`/screenshot`**
+Semua screenshot dapat dilihat di dalam folder: **/screenshot**
 
 Di bawah ini adalah hasil dari setiap pengujian:
 
 * **POST (Membuat data baru)**
-  ![Hasil Tes POST](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/POST.png?raw=true)
+  ![Hasil Tes POST](./screenshoot/POST.png)
 
 * **GET (Membaca semua data)**
-  ![Hasil Tes GET](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/GET.png?raw=true)
+  ![Hasil Tes GET](./screenshoot/GET.png)
 
 * **GET by ID (Membaca satu data)**
-  ![Hasil Tes GET_by_ID](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/GET_by_ID.png?raw=true)
+  ![Hasil Tes GET_by_ID](./screenshoot/GET_by_ID.png)
 
 * **PUT (Memperbarui data)**
-  ![Hasil Tes PUT](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/PUT.png?raw=true)
+  ![Hasil Tes PUT](./screenshoot/PUT.png)
 
 * **DELETE by ID (Menghapus data)**
-  ![Hasil Tes DELETE_by_ID](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/DELETE_by_ID.png?raw=true)
+  ![Hasil Tes DELETE_by_ID](./screenshoot/DELETE_by_ID.png)
 
 * **ERRORHANDLER (Tes validasi input kosong)**
-  ![Hasil Tes ERRORHANDLER](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/ERRORHANDLER.png?raw=true)
+  ![Hasil Tes ERRORHANDLER](./screenshoot/ERRORHANDLER.png)
