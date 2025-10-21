@@ -78,19 +78,19 @@ Semua screenshot dapat dilihat di dalam folder: **`/screenshot`**
 Di bawah ini adalah hasil dari setiap pengujian:
 
 * **POST (Membuat data baru)**
-    ![Hasil Tes POST](./screenshot/POST.png)
+  ![Hasil Tes POST](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/POST.png?raw=true)
 
 * **GET (Membaca semua data)**
-    ![Hasil Tes GET](./screenshot/GET.png)
+  ![Hasil Tes GET](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/GET.png?raw=true)
 
 * **GET by ID (Membaca satu data)**
-    ![Hasil Tes GET_by_ID](./screenshot/GET_by_ID.png)
+  ![Hasil Tes GET_by_ID](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/GET_by_ID.png?raw=true)
 
 * **PUT (Memperbarui data)**
-    ![Hasil Tes PUT](./screenshot/PUT.png)
+  ![Hasil Tes PUT](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/PUT.png?raw=true)
 
 * **DELETE by ID (Menghapus data)**
-    ![Hasil Tes DELETE_by_ID](./screenshot/DELETE_by_ID.png)
+  ![Hasil Tes DELETE_by_ID](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/DELETE_by_ID.png?raw=true)
 
 * **ERRORHANDLER (Tes validasi input kosong)**
-    ![Hasil Tes ERRORHANDLER](./screenshot/ERRORHANDLER.png)
+  ![Hasil Tes ERRORHANDLER](https://github.com/Shinon77/pwl25-mini-project/blob/main/screenshot/ERRORHANDLER.png?raw=true)
