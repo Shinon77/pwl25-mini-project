@@ -73,13 +73,24 @@ API ini memiliki 5 endpoint utama yang di-prefix dengan `/api/games`:
 ## Hasil Pengujian Postman
 
 Sesuai ketentuan tugas, bukti pengujian untuk semua 5 endpoint CRUD dan pengujian *error handling* telah didokumentasikan.
-
 Semua screenshot dapat dilihat di dalam folder: **`/screenshot`**
 
-Folder tersebut berisi hasil pengujian untuk:
-* `POST.png` (Membuat data baru)
-* `GET.png` (Membaca semua data)
-* `GET_by_ID.png` (Membaca satu data)
-* `PUT.png` (Memperbarui data)
-* `DELETE_by_ID.png` (Menghapus data)
-* `ERRORHANDLER.png` (Tes validasi input kosong)
+Di bawah ini adalah hasil dari setiap pengujian:
+
+* **POST (Membuat data baru)**
+    ![Hasil Tes POST](./screenshot/POST.png)
+
+* **GET (Membaca semua data)**
+    ![Hasil Tes GET](./screenshot/GET.png)
+
+* **GET by ID (Membaca satu data)**
+    ![Hasil Tes GET_by_ID](./screenshot/GET_by_ID.png)
+
+* **PUT (Memperbarui data)**
+    ![Hasil Tes PUT](./screenshot/PUT.png)
+
+* **DELETE by ID (Menghapus data)**
+    ![Hasil Tes DELETE_by_ID](./screenshot/DELETE_by_ID.png)
+
+* **ERRORHANDLER (Tes validasi input kosong)**
+    ![Hasil Tes ERRORHANDLER](./screenshot/ERRORHANDLER.png)
