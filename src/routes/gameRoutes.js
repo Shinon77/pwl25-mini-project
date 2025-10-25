@@ -11,4 +11,6 @@ router.get('/:id', gameController.getGameById);
 
 router.delete('/:id', gameController.deleteGame);
 
+router.put('/:id', gameController.updateGame);
+
 module.exports = router;

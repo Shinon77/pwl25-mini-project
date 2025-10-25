@@ -52,3 +52,28 @@ exports.deleteGame = async (req, res, next) => {
   }
 };
 
+exports.updateGame = async (req, res, next) => {
+  try {
+    const updatedGame = await Game.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      {
+        new: true,
+        runValidators: true
+      }
+    );
+
+    if (!updatedGame){
+      const error = new Error('Game Tidak Ditemukan!');
+      error.statusCode = 404;
+      throw error;
+    }
+
+    res.status(200).json({
+      message: 'Game Berhasil Diperbarui!',
+      data: updatedGame
+    })
+  } catch (error) {
+    next(error);
+  }
+}
