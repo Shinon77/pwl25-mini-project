@@ -6,3 +6,10 @@ const errorHandler = require('./middleware/errorHandler');
 const gameRoutes = require('./routes/gameRoutes');
 require('dotenv').config();
 
+connectDB();
+
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+app.use(logger);
